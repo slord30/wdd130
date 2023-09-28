@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rowdies:wght@300&display=swap');
+
+:root{
+    --primary-color: #124166;
+    --secondary-color: #78C5D7;
+    --accent1-color: #FCE172;
+    --accent2-color: #E86C4A;
+
+    --heading-font: 'Rowdies', cursive;
+    --paragraph-font: 'Raleway', sans-serif;
+
+    --nav-background-color: #78C5D7;
+    --nav-link-color: #124166;
+    --nav-hover-link-color: #E86C4A;
+    --nav-hover-background-color: #FCE172;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+  }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;     
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    background-color: rgba(120, 198, 215, 0.5);
+    width: 93%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1); 
+    
+}
+
+.hero article img {
+    float: right;
+    width: 225px;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    background-color:rgba(232, 108, 74, 0.5);
+    top: 60%;   
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+.hero p {
+    color: white;
+}
+
+section {
+    width: auto;
+}
+
+body {
+    margin: 50px;
+}
+
+.adventure img {
+    width: 300px;
+
+}
+
+.sociallinks img {
+    width: 35px;
+    display: inline-block;
+}
