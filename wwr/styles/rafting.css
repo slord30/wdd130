@@ -144,7 +144,7 @@ p.history, p.second {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     justify-self: center;
-    width: 225px;
+    width: 300px;
     height: auto;
 }
 
