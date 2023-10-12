@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, body, footer, form {
+  margin: 0 auto;
+  width: 500px;
+}
+
+body, footer, button {
+  font-family: 'Lora', serif;
+}
+
+form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    display: grid;
+  }
+
+h1 {
+    color: #ca2c5b;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+input, textarea, select { 
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+  padding: 10px 0 0 10px;
+}
+
+label {
+  color: #fff;
+  text-align: left;
+  padding: 1rem;
+}
+
+p.q4 {
+  background: #ccc;
+  margin: 0 25px 15px 25px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+input#q4, input#q1 {
+  padding: 10px;
+}
+
+select#q3 {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  color: #ca2c5b;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+button:hover{
+  background-color: #ca2c5b;
+  color: #eef0ff;
+}
+
+footer {
+  margin: 1rem auto 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+}
