@@ -200,7 +200,7 @@ p.history, p.second {
     margin: auto;
 }
 
-figcaption {
+.adventures figcaption {
     background-color: #FCE172;
     color: #124166;
     font-family: Rowdies;
@@ -526,7 +526,7 @@ button:hover{
 .trips > article {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    background-image: url('images/');
+    background-image: url("../images/moab.jpeg");     
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -543,6 +543,7 @@ button:hover{
     color: #bc573c;
     grid-column: 2 / 3;   
     grid-row: 1 / span 2;
+    align-self: center;
 }
 
 .trips h1 {
